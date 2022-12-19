@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "snow",
+  "version": "${version}",
+
+  "name": "snow",
+  "description": "snow.",
+  "authors": [
+    "Francy-Chan"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Kingdom-Of-The-Moon/snow/",
+    "issues": "https://github.com/Kingdom-Of-The-Moon/snow/issues"
+  },
+
+  "license": "LGPL-2.1",
+  "icon": "assets/snow/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "snow.mixins.json"
+  ],
+
+  "depends": {
+    "java": ">=${java_version}",
+    "fabricloader": ">=${loader_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Ko-fi": "https://ko-fi.com/francy_chan"
+      }
+    }
+  }
+}
